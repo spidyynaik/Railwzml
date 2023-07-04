@@ -409,7 +409,7 @@ async def load_config():
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'WeebZone-X'
+        TITLE_NAME = 'Spidey-X'
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:
