@@ -408,8 +408,10 @@ async def load_config():
         AUTHOR_URL = 'https://t.me/WZML_X'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
-    if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'WeebZone-X'
+    if len(TI
+           
+           TLE_NAME) == 0:
+        TITLE_NAME = 'Spidey-X'
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:
